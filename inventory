@@ -1,6 +1,15 @@
 192.168.86.68
 192.168.86.70
 
+[localhost]
+localhost
+
+[localhost:vars]
+
+course="DevOps"
+trainer="siva kumar"
+Duration="110HRS"
+
 [web]
 54.234.70.102
 
