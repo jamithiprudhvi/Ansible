@@ -2,7 +2,7 @@
   hosts: localhost
   become: yes
   tasks:
-  - name: print persion
+  - name: print persons
     ansible.builtin.package:
       name: "{{item}}" #item is a default keyword
     loop: 
