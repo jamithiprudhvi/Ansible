@@ -1,12 +1,12 @@
-- name: variables from PLAY-1
+- name: variables from play-1
   hosts: localhost
-  vars:
-    Course: "Devops"
-    Trainer: "shiva kumar"
-    Duration: "110 HRS"
-  tasks:
-  - name: check variables
+  vars: 
+    course: "DevOps"
+    trainer: "siva kumar"
+    Duration: "110HRS"
+  tasks: 
+  - name: check variable
     vars:
-      Course: "Devops with aws"
+      course: "DevOps with Aws"
     ansible.builtin.debug:
-    msg: "Hi iam learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
+      msg: "Hi, Iam learning {{course}}, trainer is {{trainer}}, Duration is {{Duration}}"
